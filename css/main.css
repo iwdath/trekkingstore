@@ -1,0 +1,93 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+.header {
+  background: rgba(43,80,129,1);
+  background: -moz-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(43,80,129,1)), color-stop(100%, rgba(82,114,145,1)));
+  background: -webkit-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
+  background: -o-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
+  background: -ms-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
+  background: linear-gradient(to bottom, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b5081', endColorstr='#527291', GradientType=0 );
+  height: 790px;
+}
+.background-img {
+  background: url(../img/background.jpg) no-repeat top;
+  height: 790px;
+  
+}
+.container {
+  width: 1152px;
+  margin: 0 auto;
+}
+.menu {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  font-size: 18px;
+  margin-right: 52px;
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 1122px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 942px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 702px;
+  }
+  .nav-btn {
+    margin-right: 26px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 522px;
+  }
+  .menu {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .menu {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav-btn {
+    margin-right: 15px;
+  }
+}
