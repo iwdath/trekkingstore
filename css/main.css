@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
@@ -34,7 +37,6 @@ img {
 .background-img {
   background: url(../img/background.jpg) no-repeat top;
   height: 790px;
-  
 }
 .container {
   width: 1152px;
@@ -54,7 +56,7 @@ img {
   font-size: 18px;
   margin-right: 52px;
 }
-.wrapper {
+.title-wrapper {
   margin-top: 220px;
   display: flex;
   flex-direction: column;
@@ -76,6 +78,39 @@ img {
   width: 33px;
   margin-top: 280px;
 }
+.sorting {
+  background: #f5f6f7;
+  height: 150px;
+}
+.check-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: #333;
+  padding: 45px 32px;
+}
+.check, .check div { 
+  display: flex;
+  align-items: center;
+}
+.check div {
+  margin-right: 38px;
+  font-size: 18px;
+}
+.fa-check {
+  margin-right: 19px;
+  cursor: pointer;
+}
+.btn {
+  background: #aa9b77;
+  padding: 21px 33px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.products {
+  height: 1307px;
+}
 @media screen and (max-width: 1280px) {
   .container {
     width: 1122px;
@@ -95,7 +130,13 @@ img {
   }
   .chevron-down {
     margin-top: 211px;
-    }
+  }
+  .check div {
+    margin-right: 30px;
+  }
+  .fa-check {
+    margin-right: 15px;
+  }
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -112,7 +153,29 @@ img {
   }
   .chevron-down {
     margin-top: 259px;
-    }
+  }
+  .sorting {
+    height: 180px;
+  }
+  .check-wrapper {
+    flex-direction: column;
+  }
+  .check div {
+    margin-right: 25px;
+    font-size: 15px;
+  }
+  div .children {
+    margin: 0;
+  }
+  .fa-check {
+    margin-right: 12px;
+    width: 22px;
+  }
+  .btn {
+    padding: 17px 26px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
 }
 @media screen and (max-width: 576px) {
   .container {
@@ -123,7 +186,10 @@ img {
   }
   .chevron-down {
     margin-top: 269px;
-    }
+  }
+  .check-wrapper {
+    padding: 45px 0;
+  }
 }
 @media screen and (max-width: 514px) {
   br {
@@ -133,7 +199,18 @@ img {
 @media screen and (max-width: 381px) {
   .chevron-down {
     margin-top: 248px;
-    }
+  }
+  .sorting {
+    height: 246px;
+  }
+  .check {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  div .men, div .women {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
 }
 @media screen and (max-width: 364px) {
   .title {
@@ -141,7 +218,7 @@ img {
   }
   .chevron-down {
     margin-top: 274px;
-    }
+  }
 }
 @media screen and (max-width: 320px) {
   .nav-btn {
@@ -151,5 +228,5 @@ img {
 @media screen and (max-width: 283px) {
   .chevron-down {
     margin-top: 253px;
-    }
+  }
 }
