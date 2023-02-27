@@ -292,6 +292,65 @@ img {
   position: relative;
   top: -12px;
 }
+.commerce {
+  background: #535253;
+}
+.commerce-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+}
+.commerce-wrapper img {
+  margin-right: 21px;
+  cursor: pointer;
+}
+.commerce-wrapper p {
+  font-size: 16px;
+  letter-spacing: 0.07em;
+}
+.commerce-wrapper p br {
+  display: none;
+}
+.footer {
+  background: #424242;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.footer-trekking h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer-trekking p {
+  font-size: 10px;
+  line-height: 2.2em;
+}
+.footer-credits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer-credits p {
+  font-size: 14px;
+  color: #aa9b77;
+  margin-bottom: 10px;
+}
+.footer-credits p br {
+  display: none;
+}
+.footer-credits span.footer-btn {
+  color: #fff;
+  cursor: pointer;
+}
+.footer-credits h3 {
+  font-size: 18px;
+  text-transform: none;
+}
 @media screen and (max-width: 1280px) {
   .container {
     width: 1122px;
@@ -420,6 +479,16 @@ img {
   .about-us-title p br {
     display: none;
   }
+  .footer-trekking h2 {
+    font-size: 18px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    padding: 70px 0;
+  }
+  .footer-credits {
+    margin-top: 60px;
+  }
 }
 @media screen and (max-width: 576px) {
   .container {
@@ -440,6 +509,9 @@ img {
   .about-us-title p {
     padding: 30px 20px;
   }
+  .commerce-wrapper {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 514px) {
   p.intro br {
@@ -447,6 +519,25 @@ img {
   } 
   .card {
     width: 100%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .footer-trekking p br {
+    display: none;
+  }
+  .commerce-wrapper p br {
+    display: inline;
+  }
+  .footer-trekking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-trekking p {
+    text-align: center;
+  }
+  .footer-credits {
+    align-items: center;
   }
 }
 @media screen and (max-width: 381px) {
@@ -471,6 +562,16 @@ img {
   }
   .chevron-down {
     margin-top: 274px;
+  }
+  .footer-credits {
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .footer-credits p br {
+    display: inline;
+  }
+  .footer-credits p span.hide {
+    display: none;
   }
 }
 @media screen and (max-width: 320px) {
