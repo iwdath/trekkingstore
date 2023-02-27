@@ -258,6 +258,40 @@ img {
   font-size: 22px;
   letter-spacing: 0.07em;
 }
+.about-us {
+  background: #aa9b77;
+  padding: 70px 0;
+}
+.about-us-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.about-us-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 0.07em;
+  width: 712px;
+  height: 248px;
+  border: #837659 solid 2px;
+}
+.about-us-title h2 {
+  font-size: 20px;
+  color: #837659;
+  background: #aa9b77;
+  text-transform: uppercase;
+  padding: 0 12px;
+  position: relative;
+  top: -14px;
+}
+.about-us-title p {
+  color: #424242;
+  font-size: 16px;
+  text-align: center;
+  margin: auto 0;
+  position: relative;
+  top: -12px;
+}
 @media screen and (max-width: 1280px) {
   .container {
     width: 1122px;
@@ -373,6 +407,19 @@ img {
     height: auto;
     width: auto;
   }
+  .about-us-title {
+    width: 100%;
+    height: 200px;
+  }
+  .about-us-title h2 {
+    font-size: 18px;
+  }
+  .about-us-title p {
+    padding: 0 30px;
+  }
+  .about-us-title p br {
+    display: none;
+  }
 }
 @media screen and (max-width: 576px) {
   .container {
@@ -387,9 +434,15 @@ img {
   .check-wrapper {
     padding: 45px 0;
   }
+  .about-us-title {
+    height: 100%;
+  }
+  .about-us-title p {
+    padding: 30px 20px;
+  }
 }
 @media screen and (max-width: 514px) {
-  br {
+  p.intro br {
     display: none;
   } 
   .card {
