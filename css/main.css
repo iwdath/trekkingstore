@@ -133,6 +133,9 @@ img {
   font-size: 20px;
   margin-left: 50px;
 }
+hr {
+  width: 100%;
+}
 .pages-men {
   display: flex;
   flex-direction: column;
@@ -551,7 +554,7 @@ img {
     flex-direction: column;
     align-items: flex-start;
   }
-  div .men, div .women {
+  div.men, div.women {
     margin-right: 0;
     margin-bottom: 12px;
   }
