@@ -1,87 +1,107 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   color: #fff;
 }
+
 a {
   text-decoration: none;
   color: #fff;
 }
+
 li {
   list-style: none;
 }
+
 img {
   display: block;
 }
+
 .header {
-  background: rgba(43,80,129,1);
-  background: -moz-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(43,80,129,1)), color-stop(100%, rgba(82,114,145,1)));
-  background: -webkit-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
-  background: -o-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
-  background: -ms-linear-gradient(top, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
-  background: linear-gradient(to bottom, rgba(43,80,129,1) 0%, rgba(82,114,145,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b5081', endColorstr='#527291', GradientType=0 );
+  background: rgba(43, 80, 129, 1);
+  background: -moz-linear-gradient(top, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(43, 80, 129, 1)), color-stop(100%, rgba(82, 114, 145, 1)));
+  background: -webkit-linear-gradient(top, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
+  background: -o-linear-gradient(top, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
+  background: linear-gradient(to bottom, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b5081', endColorstr='#527291', GradientType=0);
   height: 790px;
 }
+
 .background-img {
   background: url(../img/background.jpg) no-repeat top;
   height: 790px;
 }
+
 .container {
   width: 1152px;
   margin: 0 auto;
 }
+
 .menu {
   padding-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center
 }
+
 .list {
   display: flex;
   align-items: center;
 }
+
 .nav-btn {
   font-size: 18px;
   margin-right: 52px;
 }
+
 .title-wrapper {
   margin-top: 220px;
   display: flex;
   flex-direction: column;
   align-items: center
 }
+
 .offer {
   text-align: center;
 }
+
 .title {
   font-size: 55px;
   margin-bottom: 10px;
   letter-spacing: 0.07em;
 }
+
 .intro {
   font-size: 20px;
   font-weight: 400;
 }
+
 .chevron-down {
   width: 33px;
   margin-top: 280px;
 }
+
 .sorting {
   background: #f5f6f7;
   height: 150px;
 }
+
 .check-wrapper {
   display: flex;
   justify-content: space-between;
@@ -90,52 +110,65 @@ img {
   color: #333;
   padding: 45px 32px;
 }
-.check, .check div { 
+
+.check,
+.check div {
   display: flex;
   align-items: center;
 }
+
 .check div {
   margin-right: 38px;
   font-size: 18px;
 }
+
 .fa-check {
   margin-right: 19px;
   cursor: pointer;
 }
+
 .btn {
   background: #aa9b77;
   padding: 21px 33px;
   border-radius: 2px;
   font-size: 14px;
 }
+
 .products {
   height: 1284px;
 }
+
 .chapter {
   padding: 90px 32px 0;
   text-transform: uppercase;
   color: #424242;
 }
+
 .chapter-title-men {
   display: flex;
   align-items: center;
 }
+
 .chapter h2.men {
   font-size: 20px;
   margin-right: 50px;
 }
+
 .chapter-title-women {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
 }
+
 .chapter h2.women {
   font-size: 20px;
   margin-left: 50px;
 }
+
 hr {
   width: 100%;
 }
+
 .pages-men {
   display: flex;
   flex-direction: column;
@@ -144,20 +177,25 @@ hr {
   flex-wrap: wrap;
   margin-top: 50px;
 }
+
 .pages p {
   color: #aa9b77;
   font-size: 16px;
 }
+
 .pages-chevron {
   display: flex;
   margin-top: 5px;
 }
+
 .chevron-left {
   margin-right: 8px;
 }
+
 .pages-chevron img {
   cursor: pointer;
 }
+
 .pages-women {
   display: flex;
   flex-direction: column;
@@ -166,11 +204,13 @@ hr {
   align-items: center;
   margin-top: 50px;
 }
+
 .cards {
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
 }
+
 .card {
   width: 320px;
   height: 378px;
@@ -178,34 +218,42 @@ hr {
   border-radius: 2px;
   border: 6px solid transparent;
 }
+
 .card:hover {
   border: #aa9b77 solid 6px;
 }
+
 .card-content {
   display: flex;
   flex-direction: column;
   padding: 19px;
   height: 100%;
 }
+
 .product-size {
   display: flex;
   justify-content: space-between;
 }
+
 .size {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
+
 .size p {
   margin-right: 5px;
   font-size: 16px;
 }
+
 .liters {
   cursor: auto;
 }
+
 .product-color {
   display: flex;
 }
+
 .blue {
   background: #165eb9;
   width: 20px;
@@ -214,6 +262,7 @@ hr {
   margin-right: 5px;
   cursor: pointer;
 }
+
 .yellow {
   background: #ffe637;
   width: 20px;
@@ -222,6 +271,7 @@ hr {
   margin-right: 5px;
   cursor: pointer;
 }
+
 .grey {
   background: #535253;
   width: 20px;
@@ -229,6 +279,7 @@ hr {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .pink {
   background: #d3a7ac;
   width: 20px;
@@ -237,6 +288,7 @@ hr {
   margin-right: 5px;
   cursor: pointer;
 }
+
 .white {
   background: #fff;
   width: 20px;
@@ -244,31 +296,38 @@ hr {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .product-img {
   margin: auto;
   cursor: pointer;
 }
+
 .product-name {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .product-name h3 {
   font-size: 18px;
   color: #aa9b77;
 }
+
 .product-name h2 {
   font-size: 22px;
   letter-spacing: 0.07em;
 }
+
 .about-us {
   background: #aa9b77;
   padding: 70px 0;
 }
+
 .about-us-wrapper {
   display: flex;
   justify-content: center;
 }
+
 .about-us-title {
   display: flex;
   align-items: center;
@@ -278,6 +337,7 @@ hr {
   height: 248px;
   border: #837659 solid 2px;
 }
+
 .about-us-title h2 {
   font-size: 20px;
   color: #837659;
@@ -287,6 +347,7 @@ hr {
   position: relative;
   top: -14px;
 }
+
 .about-us-title p {
   color: #424242;
   font-size: 16px;
@@ -295,28 +356,35 @@ hr {
   position: relative;
   top: -12px;
 }
+
 .commerce {
   background: #535253;
 }
+
 .commerce-wrapper {
   display: flex;
   align-items: center;
   padding: 24px 0;
 }
+
 .commerce-wrapper img {
   margin-right: 21px;
   cursor: pointer;
 }
+
 .commerce-wrapper p {
   font-size: 16px;
   letter-spacing: 0.07em;
 }
+
 .commerce-wrapper p br {
   display: none;
 }
+
 .footer {
   background: #424242;
 }
+
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
@@ -325,263 +393,337 @@ hr {
   text-transform: uppercase;
   letter-spacing: 0.07em;
 }
+
 .footer-trekking h2 {
   font-size: 20px;
   margin-bottom: 20px;
 }
+
 .footer-trekking p {
   font-size: 10px;
   line-height: 2.2em;
 }
+
 .footer-credits {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
+
 .footer-credits p {
   font-size: 14px;
   color: #aa9b77;
   margin-bottom: 10px;
 }
+
 .footer-credits p br {
   display: none;
 }
+
 .footer-credits span.footer-btn {
   color: #fff;
   cursor: pointer;
 }
+
 .footer-credits h3 {
   font-size: 18px;
   text-transform: none;
 }
+
 @media screen and (max-width: 1280px) {
   .container {
     width: 1122px;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .container {
     width: 942px;
   }
+
   .card {
     width: 270px;
   }
 }
+
 @media screen and (max-width: 992px) {
   .container {
     width: 702px;
   }
+
   .nav-btn {
     margin-right: 26px;
   }
+
   .chevron-down {
     margin-top: 211px;
   }
+
   .check div {
     margin-right: 30px;
   }
+
   .fa-check {
     margin-right: 15px;
   }
+
   .card {
     width: 200px;
   }
+
   .product-name h3 {
     font-size: 15px;
   }
+
   .product-name h2 {
     font-size: 19px;
   }
+
   .product-img {
     width: 90%;
   }
+
   img.pants {
     height: 60%;
     width: 60%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .container {
     width: 522px;
   }
+
   .menu {
     padding-top: 30px;
   }
+
   .title {
     font-size: 45px;
   }
+
   .intro {
     font-size: 17px;
   }
+
   .chevron-down {
     margin-top: 259px;
   }
+
   .sorting {
     height: 180px;
   }
+
   .check-wrapper {
     flex-direction: column;
   }
+
   .check div {
     margin-right: 25px;
     font-size: 15px;
   }
+
   div .children {
     margin: 0;
   }
+
   .fa-check {
     margin-right: 12px;
     width: 22px;
   }
+
   .btn {
     padding: 17px 26px;
     font-size: 12px;
     margin-top: 20px;
   }
+
   .products {
     height: 3052px;
   }
+
   .chapter {
     padding: 90px 0 0;
   }
+
   .chapter h2.men {
     font-size: 18px;
     margin-right: 25px;
   }
+
   .chapter h2.women {
     font-size: 18px;
     margin-left: 25px;
   }
+
   .cards {
     flex-direction: column;
     align-items: center;
   }
+
   .card {
     width: 320px;
   }
-  .first-card, .second-card {
+
+  .first-card,
+  .second-card {
     margin-bottom: 64px;
   }
+
   .product-img {
     width: auto;
   }
+
   img.pants {
     height: auto;
     width: auto;
   }
+
   .about-us-title {
     width: 100%;
     height: 200px;
   }
+
   .about-us-title h2 {
     font-size: 18px;
   }
+
   .about-us-title p {
     padding: 0 30px;
   }
+
   .about-us-title p br {
     display: none;
   }
+
   .footer-trekking h2 {
     font-size: 18px;
   }
+
   .footer-wrapper {
     flex-direction: column;
     padding: 70px 0;
   }
+
   .footer-credits {
     margin-top: 60px;
   }
 }
+
 @media screen and (max-width: 576px) {
   .container {
     width: 90%;
   }
+
   .menu {
     padding-top: 20px;
   }
+
   .chevron-down {
     margin-top: 269px;
   }
+
   .check-wrapper {
     padding: 45px 0;
   }
+
   .about-us-title {
     height: 100%;
   }
+
   .about-us-title p {
     padding: 30px 20px;
   }
+
   .commerce-wrapper {
     justify-content: center;
   }
 }
+
 @media screen and (max-width: 514px) {
   p.intro br {
     display: none;
-  } 
+  }
+
   .card {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 415px) {
   .footer-trekking p br {
     display: none;
   }
+
   .commerce-wrapper p br {
     display: inline;
   }
+
   .footer-trekking {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .footer-trekking p {
     text-align: center;
   }
+
   .footer-credits {
     align-items: center;
   }
 }
+
 @media screen and (max-width: 381px) {
   .chevron-down {
     margin-top: 248px;
   }
+
   .sorting {
     height: 246px;
   }
+
   .check {
     flex-direction: column;
     align-items: flex-start;
   }
-  div.men, div.women {
+
+  div.men,
+  div.women {
     margin-right: 0;
     margin-bottom: 12px;
   }
 }
+
 @media screen and (max-width: 364px) {
   .title {
     font-size: 34px;
   }
+
   .chevron-down {
     margin-top: 274px;
   }
+
   .footer-credits {
     text-align: center;
     line-height: 1.5em;
   }
+
   .footer-credits p br {
     display: inline;
   }
+
   .footer-credits p span.hide {
     display: none;
   }
 }
+
 @media screen and (max-width: 320px) {
   .nav-btn {
     margin-right: 15px;
   }
 }
+
 @media screen and (max-width: 283px) {
   .chevron-down {
     margin-top: 253px;
