@@ -192,7 +192,7 @@ hr {
   margin-right: 8px;
 }
 
-.pages-chevron img {
+.pages-chevron svg {
   cursor: pointer;
 }
 
@@ -367,7 +367,7 @@ hr {
   padding: 24px 0;
 }
 
-.commerce-wrapper img {
+.commerce-wrapper svg {
   margin-right: 21px;
   cursor: pointer;
 }
