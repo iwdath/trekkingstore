@@ -1,1 +1,1 @@
-# trekking store (second practice)
+# Trekking Store: My second web-practice.
