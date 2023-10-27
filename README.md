@@ -1,1 +1,1 @@
-# Trekking Store: My second web-practice.
+# Trekking Store: practice #2 [Responsive Web]
