@@ -39,12 +39,12 @@ img {
   background: -webkit-linear-gradient(top, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
   background: -moz-linear-gradient(top, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
   background: linear-gradient(180deg, rgba(43, 80, 129, 1) 0%, rgba(82, 114, 145, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b5081', endColorstr='#527291', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b5081", endColorstr="#527291", GradientType=1);
 }
 
 .background-img {
   height: 790px;
-  background: url('../img/background.jpg') no-repeat top;
+  background: url("../img/background.jpg") no-repeat top;
 }
 
 .container {
