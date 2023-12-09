@@ -1,1 +1,0 @@
-# Trekking Store: practice #2 [Responsive Web]
